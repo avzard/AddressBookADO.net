@@ -26,13 +26,13 @@ namespace AddressBookADO.net
                     addressBookRepo.CreateTables();
                     break;
                 case 3:
-                    addressbook.FirstName = "Shivaraj";
-                    addressbook.LastName = "Gowda";
-                    addressbook.Address = "Basaveshwar Nagar";
-                    addressbook.City = "Bangalore";
-                    addressbook.State = "Karnataka";
-                    addressbook.Zip = "560079";
-                    addressbook.PhoneNumber = "8618199776";
+                    addressbook.FirstName = "Abhishek";
+                    addressbook.LastName = "Jadhav";
+                    addressbook.Address = "Khojgaon ";
+                    addressbook.City = "Ambarnath";
+                    addressbook.State = "M";
+                    addressbook.Zip = "421501";
+                    addressbook.PhoneNumber = "9657726141";
                     addressbook.Email = "4shivaraj@gmail.com";
                     addressBookRepo.AddContact(addressbook);
                     Console.WriteLine("Record Inserted successfully");
